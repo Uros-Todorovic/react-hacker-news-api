@@ -4,7 +4,7 @@ import { SET_LOADING, SET_STORIES, REMOVE_STORY, HANDLE_PAGE, HANDLE_SEARCH } fr
 
 import reducer from './reducer';
 
-const API_ENDPOINT = 'http://hn.algolia.com/api/v1/search?';
+const API_ENDPOINT = 'https://hn.algolia.com/api/v1/search?';
 
 const initialState = {
 	isLoading: false,
